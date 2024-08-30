@@ -1,133 +1,114 @@
-[
+export const perguntas = [
     {
-        "enunciado": "1. Qual é o seu personagem favorito de Breaking Bad?",
-        "alternativas": [
+        enunciado: "1. Qual é o seu gênero de filme favorito?",
+        alternativas: [
             {
-                "texto": "A) Walter White",
-                "afirmacao": [
-                    "O Estrategista. Você é alguém que gosta de ter controle e planejar seus movimentos cuidadosamente. Assim como Walter, você é determinado e busca alcançar seus objetivos, mesmo que isso signifique tomar decisões difíceis. Sua personalidade é forte e você valoriza a inteligência estratégica."
+                texto: "A) Ação",
+                afirmacao: [
+                    "O Aventureiro. Você adora emoção e adrenalina, tanto no cinema quanto na vida real. Gosta de histórias cheias de ação, reviravoltas e heróis destemidos. Sua personalidade é dinâmica e você está sempre em busca de novas experiências e desafios."
                 ],
-                "proxima": 1
+                proxima: 1,
             },
             {
-                "texto": "B) Jesse Pinkman",
-                "afirmacao": [
-                    "O Rebelde. Você valoriza a liberdade e a autenticidade. Como Jesse, você é impulsivo e emocional, muitas vezes guiado pelo coração. Sua personalidade é espontânea e você está sempre buscando novas aventuras, mesmo que isso signifique quebrar algumas regras pelo caminho."
+                texto: "B) Comédia",
+                afirmacao: [
+                    "O Sociável. Você valoriza o bom humor e adora se divertir. Filmes de comédia são a sua escolha para relaxar e rir. Sua personalidade é alegre e você gosta de estar cercado de amigos e momentos leves."
                 ],
-                "proxima": 2
-            }
+                proxima: 2,
+            },
         ]
     },
     {
-        "enunciado": "2. Qual tipo de atividade você prefere?",
-        "alternativas": [
+        enunciado: "2. Qual é seu tipo de filme preferido para uma maratona?",
+        alternativas: [
             {
-                "texto": "A) Planejamento cuidadoso e execução meticulosa",
-                "afirmacao": [
-                    "O Estrategista. Você é alguém que gosta de pensar em cada detalhe e se preparar para qualquer eventualidade. Sua habilidade de analisar situações e tomar decisões calculadas é uma de suas maiores forças."
+                texto: "Séries de filmes (como 'Harry Potter', 'Senhor dos Anéis')",
+                afirmacao: [
+                    "O Contador de Histórias. Você aprecia narrativas longas e complexas que permitem um mergulho profundo em universos ricos e detalhados. Você é alguém que valoriza a continuidade e o desenvolvimento ao longo do tempo."
                 ],
-                "proxima": 3
+                proxima: 3,
             },
             {
-                "texto": "B) Ação improvisada e soluções rápidas",
-                "afirmacao": [
-                    "O Impulsivo. Você prefere viver no momento e tomar decisões rapidamente, muitas vezes confiando na sua intuição. Sua capacidade de se adaptar rapidamente às circunstâncias é uma característica marcante."
+                texto: "Filmes independentes e alternativos",
+                afirmacao: [
+                    "O Criativo. Você gosta de explorar filmes únicos e inovadores que oferecem uma perspectiva diferente. Sua personalidade é aberta a novas ideias e você busca experiências cinematográficas que desafiem o convencional."
                 ],
-                "proxima": 4
-            }
+                proxima: 4,
+            },
         ]
     },
     {
-        "enunciado": "3. Quando confrontado com um dilema moral, você:",
-        "alternativas": [
+        enunciado: "3. Quem é seu diretor de cinema favorito?",
+        alternativas: [
             {
-                "texto": "A) Analisa todas as opções e escolhe a mais lógica",
-                "afirmacao": [
-                    "O Realista. Assim como Walter White, você tende a ver o mundo como ele realmente é e toma decisões baseadas na lógica e no pragmatismo."
+                texto: "Steven Spielberg",
+                afirmacao: [
+                    "O Clássico. Você aprecia filmes que são bem construídos e têm um impacto duradouro. Spielberg é conhecido por suas narrativas envolventes e emocionantes, e você tende a gostar de histórias que são tanto cativantes quanto memoráveis."
                 ],
-                "proxima": 5
+                proxima: 4,
             },
             {
-                "texto": "B) Segue seu coração e faz o que parece certo no momento",
-                "afirmacao": [
-                    "O Emocional. Como Jesse, você é guiado por suas emoções e intuições. Para você, a moralidade é mais uma questão de sentimentos do que de lógica."
+                texto: "Quentin Tarantino",
+                afirmacao: [
+                    "O Inovador. Você gosta de filmes que desafiam as convenções e apresentam diálogos afiados e roteiros ousados. Tarantino é conhecido por seu estilo único e sua abordagem não convencional ao cinema, o que ressoa com sua personalidade criativa e audaciosa."
                 ],
-                "proxima": 6
-            }
+                proxima: 5,
+            },
         ]
     },
     {
-        "enunciado": "4. Qual é o seu lema na vida?",
-        "alternativas": [
+        enunciado: "4. Qual é o seu tipo de final de filme preferido?",
+        alternativas: [
             {
-                "texto": "A) 'Eu sou o perigo.'",
-                "afirmacao": [
-                    "O Determinado. Você acredita em tomar controle de sua própria vida e enfrentar desafios de frente, sem medo de assumir riscos para alcançar o que deseja."
+                texto: "Final feliz e satisfatório",
+                afirmacao: [
+                    "O Otimista. Você gosta de ver histórias que terminam bem e proporcionam uma sensação de conclusão positiva. Filmes com finais felizes refletem sua visão positiva da vida e sua preferência por histórias que deixam uma impressão alegre."
                 ],
-                "proxima": 7
+                proxima: 5,
             },
             {
-                "texto": "B) 'Yeah, Science!'",
-                "afirmacao": [
-                    "O Curioso. Você tem uma mente aberta e é apaixonado por aprender coisas novas, assim como Jesse se encantou com o conhecimento científico e as novas descobertas."
+                texto: "Final aberto e ambíguo",
+                afirmacao: [
+                    "O Reflexivo. Você aprecia filmes que deixam espaço para interpretação e que provocam reflexão. Finais abertos permitem que você use sua imaginação e analise as diferentes possibilidades e significados, o que se alinha com sua natureza curiosa e analítica."
                 ],
-                "proxima": 8
-            }
+                proxima: 6,
+            },
         ]
     },
     {
-        "enunciado": "5. Como você lida com problemas?",
-        "alternativas": [
+        enunciado: "5. Qual é o tipo de filme que você mais gosta de assistir com amigos?",
+        alternativas: [
             {
-                "texto": "A) Com frieza e cálculo",
-                "afirmacao": [
-                    "O Calculista. Como Walter, você prefere manter a calma e pensar racionalmente para encontrar a melhor solução para qualquer problema."
+                texto: "Filmes de terror",
+                afirmacao: [
+                    "O Aventureiro Social. Você gosta de experiências intensas e emocionantes, e filmes de terror são perfeitos para isso. Assistir a filmes assustadores com amigos proporciona uma experiência compartilhada cheia de risos nervosos e adrenalina."
                 ],
-                "proxima": 9
+                proxima: 6,
             },
             {
-                "texto": "B) Com emoção e paixão",
-                "afirmacao": [
-                    "O Impulsivo. Assim como Jesse, você reage emocionalmente aos problemas e tende a confiar em seus instintos para lidar com situações difíceis."
+                texto: "Comédias românticas",
+                afirmacao: [
+                    "O Romântico. Você gosta de filmes que combinam humor e romance, proporcionando uma experiência leve e agradável. Assistir a comédias românticas com amigos é uma forma de relaxar e aproveitar momentos divertidos e encantadores."
                 ],
-                "proxima": 10
-            }
+                proxima: 7,
+            },
         ]
     },
     {
-        "enunciado": "6. Qual tipo de ambiente você prefere?",
-        "alternativas": [
+        enunciado: "6. Qual é o seu ator ou atriz favorito?",
+        alternativas: [
             {
-                "texto": "A) Um laboratório bem equipado",
-                "afirmacao": [
-                    "O Cientista. Você gosta de ambientes organizados onde possa explorar suas habilidades e conhecimentos de maneira sistemática, assim como Walter em seu laboratório."
+                texto: "Leonardo DiCaprio",
+                afirmacao: [
+                    "O Versátil. Você aprecia atuações profundas e complexas, e Leonardo DiCaprio é conhecido por seu talento em interpretar uma ampla gama de personagens. Sua preferência por atores versáteis reflete sua própria diversidade de interesses e habilidades."
                 ],
-                "proxima": 11
             },
             {
-                "texto": "B) Um ambiente ao ar livre, sem regras",
-                "afirmacao": [
-                    "O Aventureiro. Você prefere a liberdade e a espontaneidade, como Jesse quando está em ambientes abertos e improvisados."
+                texto: "Meryl Streep",
+                afirmacao: [
+                    "O Elegante. Você valoriza a habilidade e a sofisticação, e Meryl Streep é uma atriz renomada por suas atuações refinadas e sofisticadas. Sua escolha reflete um gosto por qualidade e profundidade no cinema."
                 ],
-                "proxima": 12
-            }
+            },
         ]
     },
-    {
-        "enunciado": "7. Como você gosta de se vestir?",
-        "alternativas": [
-            {
-                "texto": "A) Roupa formal e bem organizada",
-                "afirmacao": [
-                    "O Discreto. Você prefere se vestir de maneira que transmita seriedade e organização, semelhante ao Walter em seu papel de professor e estrategista."
-                ]
-            },
-            {
-                "texto": "B) Roupa casual e descontraída",
-                "afirmacao": [
-                    "O Relaxado. Você prefere uma abordagem mais descontraída e confortável, como Jesse, que frequentemente veste roupas mais casuais."
-                ]
-            }
-        ]
-    }
-]
+];
